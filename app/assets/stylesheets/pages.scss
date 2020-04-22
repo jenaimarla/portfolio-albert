@@ -13,7 +13,37 @@
   margin-top: 200px;
 }
 
-
 html {
   background-color: #dbdbdb;
+}
+
+.about {
+  margin-left: 160px;
+  color: white;
+  font-size: 12px;
+  font-family: Futura;
+  height: 195px;
+  line-height: 28px;
+  border-radius: 5px;
+}
+
+.list ul {
+   margin-top: 50px;
+}
+
+
+
+.work, .ex {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  font-family: Futura;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.ex {
+  float: right;
+  margin-right: 0px;
 }
