@@ -18,32 +18,39 @@ html {
 }
 
 .about {
+  padding: 20px;
+  background-color:black;
   margin-left: 160px;
   color: white;
   font-size: 12px;
   font-family: Futura;
-  height: 195px;
-  line-height: 28px;
-  border-radius: 5px;
+  height: 175px;
+  line-height: 30px;
+  width: 1235px;
 }
-
-.list ul {
-   margin-top: 50px;
-}
-
-
 
 .work, .ex {
-  background-color: black;
+  padding: 20px;
   color: white;
-  font-size: 12px;
   font-family: Futura;
-  width: 400px;
-  height: 400px;
-  border-radius: 50%;
+  margin-right: 160px;
+  font-size: 16px;
+
 }
 
-.ex {
-  float: right;
-  margin-right: 0px;
+.work {
+  margin-top: 150px;
 }
+
+.contact {
+  color: black;
+  font-family: Futura;
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+

@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+circle = { name: "CIRCLE"}
+water = { name: "WATER"}
+
+[ circle, water ].each do |attributes|
+  project = Project.create!(attributes)
+
+end
