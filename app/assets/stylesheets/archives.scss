@@ -3,4 +3,21 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+.images {
+  margin-top: 100px;
+  margin-left: 50px;
+  display: flex;
+}
+
+h1 {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.image {
+
+  padding: 20px;
+  overflow-y: auto;
+}
+
 
