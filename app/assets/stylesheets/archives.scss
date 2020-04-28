@@ -7,17 +7,23 @@
   margin-top: 100px;
   margin-left: 50px;
   display: flex;
-}
+  width: 2000px;
 
-h1 {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
+
 }
 
 .image {
-
+  font-size:30px;
+  font-family: Futura;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
   padding: 20px;
-  overflow-y: auto;
+  overflow-y: hidden;
+margin: auto;
+
 }
+
+
+
 
 
