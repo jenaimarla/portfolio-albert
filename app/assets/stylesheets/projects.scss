@@ -21,15 +21,10 @@ a {
   color: black;
 }
 
-
 .circle-project {
-  width: 1200px;
-  height: 700px;
-  background-color: black;
-  margin-top: 60px;
-  position: fixed;
-  :focus {
-    outline: none;
+  margin-top: 300px;
+  p {
+    font-size: 30px;
   }
 }
 
@@ -51,4 +46,45 @@ a {
   }
 }
 
+.circle-images {
+  display: flex;
+  justify-content: space-around;
+  a {
+    font-family: Futura;
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+    text-decoration: underline;
+  }
+}
+
+
+.water-text {
+  margin-left: 60px;
+  margin-top: 60px;
+  text-align: center;
+  h1 {
+    font-weight: lighter;
+    font-size:40px;
+  }
+}
+
+.water-images {
+  margin-top: 60px;
+  border-radius: 10px;
+  img {
+    border-radius: 10px;
+  }
+}
+
+.water-project {
+  display: flex;
+  justify-content: space-around;
+}
+
+.water-text, .water-images {
+  width: 600px;
+  height: 700px;
+  overflow-y: scroll;
+}
 
