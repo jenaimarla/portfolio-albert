@@ -28,7 +28,7 @@ a {
   }
 }
 
-.circle-text {
+.project-text {
   position: relative;
   padding: 1rem;
   margin-top: 700px;
@@ -58,6 +58,19 @@ a {
   }
 }
 
+.water-images {
+  display: flex;
+  justify-content: space-around;
+  text-align:center;
+  margin: 0 auto;
+  a {
+    font-family: Futura;
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+    text-decoration: underline;
+  }
+}
 
 .water-text {
   margin-left: 60px;
@@ -69,11 +82,10 @@ a {
   }
 }
 
-.water-images {
-  margin-top: 60px;
-  border-radius: 10px;
-  img {
-    border-radius: 10px;
+.water-project {
+  margin-top: 300px;
+  p {
+    font-size: 30px;
   }
 }
 
@@ -82,9 +94,5 @@ a {
   justify-content: space-around;
 }
 
-.water-text, .water-images {
-  width: 600px;
-  height: 700px;
-  overflow-y: scroll;
-}
+
 
