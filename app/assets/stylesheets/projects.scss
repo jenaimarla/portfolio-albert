@@ -2,6 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+// general css index
+
 h1 {
   font-family: Futura;
   font-size: 100px;
@@ -21,78 +24,126 @@ a {
   color: black;
 }
 
+// circle show page css
+
 .circle-project {
-  margin-top: 300px;
-  p {
-    font-size: 30px;
+  text-align: center;
+  line-height: 30px;
+  h1 {
+    color: black;
+    font-size: 20px;
   }
 }
 
 .project-text {
-  position: relative;
-  padding: 1rem;
-  margin-top: 700px;
-  text-align: center;
-  p {
-    max-width: 600px;
-    margin: 1rem auto;
-  }
-  h1 {
-    color: white;
-    font-weight: lighter;
-    line-height: 90px;
-    font-size: 50px;
-    font-family: Futura;
-  }
+  position: absolute;
+  margin-top: 50px;
+  padding: 20px;
+  width: 700px;
 }
 
 .circle-images {
-  display: flex;
-  justify-content: space-around;
+  position: relative;
+  margin-top: 200px;
   a {
     font-family: Futura;
     font-size: 30px;
     color: white;
     font-weight: lighter;
-    text-decoration: underline;
   }
+}
+
+.image1 {
+  margin-right: 400px;
+}
+
+.image2 {
+  margin-left: 700px;
+}
+
+.image3 {
+  margin-left: 1200px;
+  margin-top: 150px;
+}
+
+.image4 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 150px;
+  margin-top: 150px;
+}
+
+.image6 {
+  margin-top: 175px;
+  margin-left: 350px;
+}
+
+.image7 {
+  margin-top: 100px;
+  margin-right: 1000px;
+}
+
+
+
+
+// water show page css
+
+.water-project {
+  text-align: center;
+  line-height: 30px;
+  h1 {
+    color: white;
+    font-size: 20px;
+  }
+}
+
+.water-text  {
+  position: absolute;
+  margin-top: 50px;
+  padding: 20px;
+  width: 400px;
+  margin-left: 700px;
 }
 
 .water-images {
-  display: flex;
-  justify-content: space-around;
-  text-align:center;
-  margin: 0 auto;
+  position: relative;
+  margin-top: 200px;
   a {
     font-family: Futura;
-    font-size: 30px;
-    color: white;
-    font-weight: lighter;
-    text-decoration: underline;
+    color: black;
   }
 }
 
-.water-text {
-  margin-left: 60px;
-  margin-top: 60px;
-  text-align: center;
-  h1 {
-    font-weight: lighter;
-    font-size:40px;
+.image8 {
+  margin-right: 800px;
+  a {
+    font-size: 70px;
+    font-weight: bold;
   }
 }
 
-.water-project {
-  margin-top: 300px;
-  p {
-    font-size: 30px;
+.image9 {
+  margin-right: 800px;
+   a {
+    font-size: 70px;
+    font-weight: bold;
   }
 }
 
-.water-project {
-  display: flex;
-  justify-content: space-around;
+
+.image10 {
+  margin-right: 800px;
+   a {
+    font-size: 70px;
+    font-weight: bold;
+  }
 }
 
-
+.image11 {
+  margin-right: 800px;
+   a {
+    font-size: 70px;
+    font-weight: bold;
+  }
+}
 
