@@ -55,15 +55,36 @@ a {
 
 .image1 {
   margin-right: 400px;
+  #Calque_1 {
+  position: absolute;
+  width: 700px;
+  height:700px;
+  margin-left: -290px;
+  margin-top: -230px;
+  }
 }
 
 .image2 {
   margin-left: 700px;
+  #Calque_1 {
+  position: absolute;
+  width: 700px;
+  height:700px;
+  margin-left: -400px;
+  margin-top: -230px;
+  }
 }
 
 .image3 {
   margin-left: 1200px;
   margin-top: 150px;
+   #Calque_1 {
+  position: absolute;
+  width: 700px;
+  height:700px;
+  margin-left: -390px;
+  margin-top: -230px;
+  }
 }
 
 .image4 {
@@ -71,20 +92,62 @@ a {
   justify-content: space-around;
   margin-left: 150px;
   margin-top: 150px;
+    #Calque_1 {
+  position: absolute;
+  width: 700px;
+  height:700px;
+  margin-left: 10px;
+  margin-top: -230px;
+  }
+}
+
+.image5 {
+  margin-top: 175px;
+  margin-left: 350px;
+     #Calque_1 {
+  position: absolute;
+  width: 700px;
+  height:700px;
+  margin-left: -395px;
+  margin-top: -230px;
+  }
 }
 
 .image6 {
   margin-top: 175px;
   margin-left: 350px;
+     #Calque_1 {
+  position: absolute;
+  width: 700px;
+  height:700px;
+  margin-left: -390px;
+  margin-top: -230px;
+  }
 }
 
 .image7 {
   margin-top: 100px;
   margin-right: 1000px;
+     #Calque_1 {
+  position: absolute;
+  width: 700px;
+  height:700px;
+  margin-left: -395px;
+  margin-top: -230px;
+  }
 }
 
-
-
+.image12 {
+  margin-top: 100px;
+  margin-right: 1000px;
+     #Calque_1 {
+  position: absolute;
+  width: 700px;
+  height:700px;
+  margin-left: -395px;
+  margin-top: -230px;
+  }
+}
 
 // water show page css
 
@@ -147,11 +210,3 @@ a {
   }
 }
 
-#Calque_1 {
-  position: absolute;
-  width: 1000px;
-  height:1000px;
-  margin-left: 390px;
-  margin-top: 150px;
-
-}
